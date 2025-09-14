@@ -64,7 +64,6 @@ It enables large-scale playlist analysis and similarity benchmarking for music r
 - mean = 0.0001, std = 0.0887, median = -0.0110  
 - min = -0.3178, max = 0.9090  
 
----
 
 ### 🔹 Without Windowing (윈도우 없이)
 - **Samples**: n = 28,563  
@@ -79,7 +78,6 @@ It enables large-scale playlist analysis and similarity benchmarking for music r
 - min = -0.3326, max = 0.9550  
 
 
----
 
 ## 📊 Preprocessing Based on Statistics
 - Retain only playlists with **saves ≥ 15**.  
@@ -87,7 +85,7 @@ It enables large-scale playlist analysis and similarity benchmarking for music r
 
 ---
 
-## 🎵 Contrastive Training
+## 3.Contrastive Training
 
 - **Method**: Contrastive learning with InfoNCE loss  
   - Positives: tracks that co-occur in playlists (neighbors)  
